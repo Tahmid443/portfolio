@@ -1,3 +1,7 @@
+body {
+  background: #000;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: #070707;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +36,127 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Custom CSS */
+.top-header {
+  font-size: 0.9rem;
+}
+
+.nav-link {
+  font-weight: 700;
+  color: rgb(230, 229, 229) !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.fa-bars {
+  color: white !important;
+}
+
+.main-navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+    background: rgba(37, 37, 37, 0.438) !important;
+      backdrop-filter: blur(5px) !important;
+      box-shadow: 3px 3px 5px rgba(56, 56, 56, 0.774) !important;;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.search-box {
+  width: 250px;
+}
+
+.hero-section {
+  padding: 5rem 0;
+  background: url('./assets/home-bg.png') no-repeat center center/cover;
+
+}
+
+.home-video {
+  transition: opacity 0.3s ease;
+}
+
+.home-video:hover {
+  opacity: 1 !important;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.social-icons i {
+  font-size: 1.2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .search-box {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .hero-section {
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .hero-section .d-flex {
+    justify-content: center;
+  }
+}
+
+/* src/App.css */
+.card,.card-footer {
+  transition: transform 0.3s ease;
+  background: rgba(37, 37, 37, 0.438) !important;
+  /* backdrop-filter: blur(5px) !important; */
+  box-shadow: 3px 3px 5px rgba(56, 56, 56, 0.774) !important;
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.title{
+  color: rgb(167, 160, 160);
+  text-decoration: underline;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: #000000 !important;
+  width: 40px !important;
+  height: 40px !important;
+  padding: 10px !important;
+  border-radius: 3px !important;
+}
+
+.social-icons a {
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+}
+.testimonial{
+  background: rgb(224, 222, 222);
+}
+.whitebg{
+  background: rgb(240, 236, 236);
+}
+.darkbg{
+  background: rgba(37, 37, 37, 0.438) !important;
 }
