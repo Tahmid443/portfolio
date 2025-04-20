@@ -7,7 +7,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
     return (
-        <footer className="bg-dark text-white py-5">
+        <footer className=" text-white py-5">
             <Container>
                 <Row>
                     <Col lg={3} className="mb-4">

@@ -1,5 +1,9 @@
 body {
-  background: #000;
+  background: url('./assets/body.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .App {
@@ -58,11 +62,10 @@ body {
 }
 
 .main-navbar {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-    background: rgba(37, 37, 37, 0.438) !important;
-      backdrop-filter: blur(5px) !important;
-      box-shadow: 3px 3px 5px rgba(56, 56, 56, 0.774) !important;;
+  padding: 15px 2px !important;
+  background: rgba(37, 37, 37, 0.438) !important;
+  box-shadow: 3px 3px 5px rgba(56, 56, 56, 0.37) !important;
+  
 }
 
 .navbar-brand {
@@ -74,8 +77,12 @@ body {
 }
 
 .hero-section {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 70vh;
   padding: 5rem 0;
-  background: url('./assets/home-bg.png') no-repeat center center/cover;
+
 
 }
 
@@ -114,7 +121,8 @@ body {
 }
 
 /* src/App.css */
-.card,.card-footer {
+.card,
+.card-footer {
   transition: transform 0.3s ease;
   background: rgba(37, 37, 37, 0.438) !important;
   /* backdrop-filter: blur(5px) !important; */
@@ -130,7 +138,8 @@ body {
   height: 200px;
   object-fit: cover;
 }
-.title{
+
+.title {
   color: rgb(167, 160, 160);
   text-decoration: underline;
 }
@@ -151,12 +160,17 @@ body {
 .social-icons a:hover {
   transform: translateY(-3px);
 }
-.testimonial{
+
+.testimonial {
   background: rgb(224, 222, 222);
 }
-.whitebg{
-  background: rgb(240, 236, 236);
+
+.whitebg {
+  background: none !important;
 }
-.darkbg{
-  background: rgba(37, 37, 37, 0.438) !important;
+
+.darkbg {
+  background: none !important;
 }
+
+/*  */
