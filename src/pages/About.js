@@ -35,7 +35,7 @@ const About = () => {
                         </Col>
                         <Col md={6} className="d-block mx-auto my-auto">
                             {/* Placeholder for an image (replace with your own) */}
-                            <img src={'./assets/projectImg/dhrubo.jpg'} height={'300px'} alt="" />
+                            <img src={'./assets/projectImg/dhrubo.jpg'} width={'100%'} height={'100%'} alt="" />
                         </Col>
                     </Row>
                 </Container>

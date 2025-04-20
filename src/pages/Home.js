@@ -59,11 +59,11 @@ function Home() {
                         {
                             <Col lg={4} md={6} className="mb-4">
                                 <Card className="h-100 p-3 shadow-sm">
-                                    <Card.Img className='rounded' variant="top" src={`./assets/projectImg/foodnet.png`} />
+                                    <Card.Img className='rounded' variant="top" src={`./assets/projectImg/cafeino.png`} />
                                     <Card.Body>
-                                        <Card.Title>Food Network</Card.Title>
+                                        <Card.Title>Cafeino</Card.Title>
                                         <Card.Text>
-                                            Lead a healthy life by connected with FoodNet which is a food delivery service.
+                                            A commercial website for Cafeino BD, featuring a user-friendly interface and responsive design. Built with React JS and Bootstrap.
                                         </Card.Text>
                                         <div className="d-flex justify-content-between align-items-center">
                                             <div>
@@ -72,7 +72,7 @@ function Home() {
                                             </div>
                                             <Button
                                                 target='1'
-                                                href='https://dhrubo256.github.io/food-network/'
+                                                href='https://cafeino-bd.netlify.app'
                                                 variant="outline-light">Live Demo</Button>
                                         </div>
                                     </Card.Body>
